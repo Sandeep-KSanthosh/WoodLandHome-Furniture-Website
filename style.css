@@ -1,0 +1,69 @@
+h6:hover{
+    color: rgb(237, 136, 21);
+    cursor: pointer;
+}
+
+/* .card{ */
+    /* padding: 50px; */
+  /* background-color: white; */
+  /* transition: transform .2s; Animation */
+  /* width: 200px;
+  height: 200px; */
+  /* margin: 0 auto; */
+
+
+/* .card:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   
+    /* .btn btn-primary:hover {
+      background-color: blue;
+    } */
+      
+
+    /* [1] The container */
+.img-hover-zoom {
+  height: 335px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+  
+
+
+.users-feedback{
+	padding-bottom: 100px ;
+  padding-top: 50px;
+}
+.user-review{
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2); 
+	padding-bottom: 50px;
+}
+.user-review p{
+padding: 50px 10px 10px 10px;
+}
+.users-feedback img{
+	width:60px;
+	height: 60px;
+	border-radius: 50%;
+	position: relative;
+	margin: -30px 0 20px 40%;
+}
+/* .user-review p::before{
+	content: '\201d';
+	display: block;
+	position: absolute;
+	font-size: 100px;
+	color: #6495ed;
+	font-family: sans-serif;
+	left: 44%;
+	top:-20px;
+} */
